@@ -1,0 +1,373 @@
+body{
+    background:#ffffff;
+* {
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    word-wrap: break-word;
+}
+#logo{
+/* logo (1) */
+position: absolute;
+width: 206px;
+height: 121px;
+left: 0px;
+right: 1152px;
+top: 0px;
+bottom: 651px;
+}
+#upper{
+    /* верхняя */
+position: absolute;
+width: 1356px;
+height: 0;
+left: 0;
+top: 115px;
+border: 5px solid rgb(0, 0, 0);
+}
+#search_about{
+/* Прямоугольник 6 */
+position: absolute;
+width: 200px;
+height: 75px;
+left: 257px;
+right: -257px;
+top: 25px;
+bottom: -25px;
+border-radius: 220px;
+background: rgb(255, 152, 79);
+}
+#search_about_t{
+/* искать по \/ */
+position: absolute;
+width: 200px;
+height: 36.99px;
+left: 275px;
+right: -248px;
+top: 45px;
+bottom: -2.4px;
+font-size: 25px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+}
+#critic{
+/* Прямоугольник 7 */
+position: absolute;
+width: 200px;
+height: 75px;
+left: 515px;
+right: -515px;
+top: 24px;
+bottom: -24px;
+border-radius: 64px;
+background: rgb(255, 152, 79);
+}
+#critic_t{
+    /* от критиков */
+position: absolute;
+width: 200px;
+height: 39.71px;
+left: 527px;
+right: -504px;
+top: 41.65px;
+bottom: -6.35px;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+}
+#search{
+    /* поиск */
+position: absolute;
+width: 250px;
+height: 85px;
+left: 767px;
+right: 349px;
+top: 43px;
+bottom: 20px;
+}
+#search_input{
+    /* поиск */
+position: absolute;
+width: 180px;
+height: 45px;
+left: 767px;
+right: 349px;
+top: 53px;
+bottom: 20px;
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+}
+#profile{
+    /* профиль */
+position: absolute;
+width: 219px;
+height: 144px;
+left: 1046px;
+right: 51px;
+top: 5px;
+bottom: 6px;
+}
+#enter_t{
+    /* войти */
+position: absolute;
+width: 86.05px;
+height: 36px;
+left: 1227.78px;
+right: -1094.7px;
+top: 40px;
+bottom: 61px;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+}
+#factorio{
+    /* Прямоугольник 11 */
+position: absolute;
+width: 267px;
+height: 260px;
+left: 64px;
+top: 185px;
+}
+#factorio_d{
+    /* Прямоугольник 12 */
+position: absolute;
+width: 267px;
+height: 61px;
+left: 64px;
+top: 445px;
+border-radius: 15px;
+background: rgb(255, 255, 255);
+}
+#factorio_t{
+    /* factorio */
+position: absolute;
+width: 150.37px;
+height: 29px;
+left: 142.05px;
+right: 34.58px;
+top: 461px;
+bottom: -169px;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0px;
+text-align: left;
+}
+#game_card{
+    position: absolute;
+}
+#factorio_bk{
+    /* image.png */
+position: absolute;
+width: 1366px;
+height: 278px;
+left: 0;
+right: 0;
+top: 120px;
+bottom: 360px;
+}
+#profile_pic{
+/* man */
+position: absolute;
+width: 115.2px;
+height: 144px;
+left: 26.74px;
+right: 83.09px;
+top: 442px;
+bottom: -441px;
+}
+#name{
+/* name */
+position: absolute;
+width: 700px;
+height: 36px;
+left: 162.53px;
+right: -26.74px;
+top: 441px;
+bottom: -332px;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+}
+.writing{
+    /* write it */
+position: absolute;
+width: 1000px;
+height: 206px;
+left: 163px;
+right: 909px;
+top: 511px;
+bottom: -392px;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+resize: none;
+}
+#send_b{
+    /* Прямоугольник 15 */
+position: absolute;
+width: 154px;
+height: 70px;
+left: 1181px;
+right: -1151px;
+top: 650px;
+bottom: -459px;
+border-radius: 70px;
+background: rgb(255, 152, 79);
+cursor: pointer;
+}
+#send_t{
+/* отправить */
+position: absolute;
+width: 71px;
+height: 17px;
+left: 1223px;
+right: -1110px;
+top: 675px;
+bottom: -432px;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0px;
+text-align: left;
+cursor: pointer;
+}
+#writing_critic{
+    /* write it */
+position: absolute;
+width: 875px;
+height: 236px;
+left: 27px;
+right: 909px;
+top: 561px;
+bottom: -392px;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+}
+#mark{
+    /* mark */
+position: absolute;
+width: 270.58px;
+height: 55px;
+left: 1037.42px;
+right: -11px;
+top: 437.47px;
+bottom: -480px;
+}
+#mark_critic{
+    /* mark */
+position: absolute;
+width: 270.58px;
+height: 55px;
+left: 737.42px;
+right: -11px;
+top: 437.47px;
+bottom: -480px;
+}
+#bad_feedback{
+    /* профиль */
+position: absolute;
+width: 1226.02px;
+height: 145px;
+left: 0px;
+top: 330px;
+}
+#critic_feedback_text{
+    /* отзыв */
+position: absolute;
+width: 0px;
+height: 0px;
+left: 320px;
+right: 0px;
+top: -250px;
+bottom: 223px;
+}
+#critic_good_feedback{
+    /* отзыв */
+position: absolute;
+width: 632px;
+height: 321px;
+left: 8px;
+right: 0px;
+top: 350px;
+bottom: 223px;
+}
+.mark {
+    position: absolute;
+    top: 430px;
+    left: 1050px;
+	width: 265px;
+	margin: 0 auto;
+}
+.mark:not(:checked) > input {
+	display: none;
+}
+.mark:not(:checked) > label {
+	float: right;
+	width: 52px;
+	padding: 0px;
+	cursor: pointer;
+	font-size: 64px;
+	line-height: 64px;
+	color: rgb(255, 255, 255);
+	text-shadow: 1px 1px #bbb;
+}
+.mark:not(:checked) > label:before {
+	content: '★';
+}
+.mark > input:checked ~ label {
+	color: rgb(0, 0, 0);
+}
+.mark:not(:checked) > label:hover,
+.mark:not(:checked) > label:hover ~ label {
+	color: rgb(165, 165, 165);
+}
+.mark > input:checked + label:hover,
+.mark > input:checked + label:hover ~ label,
+.mark > input:checked ~ label:hover,
+.mark > input:checked ~ label:hover ~ label,
+.mark > label:hover ~ input:checked ~ label {
+	color: rgb(165, 165, 165);
+}
+.rate-area > label:active {
+	position: relative;
+}
+
+.bad_mark {
+    font-size: 0;
+    position: absolute;
+    top: 430px;
+    left: 1020px;
+	width: 300px;
+	margin: 0 auto;
+}
+.bad_mark span {
+	padding: 0;
+	font-size: 64px;
+	margin: 0 3px;
+	line-height: 1;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.bad_mark > span:before {
+	content: '★';
+}
+.bad_mark > span.active {
+	color: rgb(0, 0, 0);
+}
+}

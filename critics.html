@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="денис самолично">
+        <meta name="description" content="страница с рецензиями критиков">
+        <meta name="keywords" content="игры,игра,отзыв,отзывы,видеоигры,видеоигра,тбин,трастбин,Tbin,TrustBin">
+        <title>TrustBin</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <a href="index.html" ><img id="logo" src="logo.bmp"></a>
+        <div id="upper"></div>
+        <div id="search_about"></div>
+        <div id="search_about_t">искать по \/</div>
+        <a href="critics.html" >
+            <div id="critics"><!--критики-->
+                <div id="critic"></div>
+                <div id="critic_t">от критиков</div>
+            </div>
+        </a>
+        <a href="" id="search_link"><img id="search" src="поиск.svg"></a><!--строка поиска\/-->
+        <input id="search_input" type="search" name="search_input" autocomplete="on" list="games" placeholder="найти" onchange="start_search()">
+        <datalist id="games">
+            <option value="factorio">
+        </datalist>
+        <img id="profile" src="профиль.svg">
+        <div id="enter_t">войти</div>
+        <a href="factorio.html" id="critic_bad_feedback">
+            <div id="game_card">
+                <img id="factorio" src="factorio.png">
+                <div id="factorio_d"></div>
+                <div id="factorio_t">factorio</div>
+            </div>
+            <div id="critic_feedback_text">
+                <img id="profile_pic" src="профиль.svg">
+                <div id="name"> злой критик </div>
+                <div id="writing_critic"> не игра, а кусок кода на кумире!! </div>
+                <div id="mark_critic">
+                    <img id="mark_1" src="mark(1).svg">
+                    <img id="mark_2" src="mark(0).svg">
+                    <img id="mark_3" src="mark(0).svg">
+                    <img id="mark_4" src="mark(0).svg">
+                    <img id="mark_5" src="mark(0).svg">
+                </div>
+            </div>
+        </a>
+        <a href="factorio.html" id="critic_good_feedback">
+            <div id="game_card">
+                <img id="factorio" src="factorio.png">
+                <div id="factorio_d"></div>
+                <div id="factorio_t">factorio</div>
+            </div>
+            <div id="critic_feedback_text">
+                <img id="profile_pic" src="профиль.svg">
+                <div id="name"> добрый критик </div>
+                <div id="writing_critic"> игра года, однозначно!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! </div>
+                <div id="mark_critic">
+                    <img id="mark_1" src="mark(1).svg">
+                    <img id="mark_2" src="mark(1).svg">
+                    <img id="mark_3" src="mark(1).svg">
+                    <img id="mark_4" src="mark(1).svg">
+                    <img id="mark_5" src="mark(1).svg">
+                </div>
+            </div>
+        </a>
+        <script src="search.js"></script>
+    </body>
+</html>

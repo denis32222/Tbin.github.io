@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="денис самолично">
+        <meta name="description" content="страница игры(factorio)">
+        <meta name="keywords" content="игры,игра,отзыв,отзывы,видеоигры,видеоигра,тбин,трастбин,Tbin,TrustBin">
+        <title>TrustBin</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <a href="index.html" ><img id="logo" src="logo.bmp"></a>
+        <div id="upper"></div>
+        <div id="search_about"></div>
+        <div id="search_about_t">искать по \/</div>
+        <a href="critics.html" >
+            <div id="critics"><!--критики-->
+                <button id="critic"></button>
+                <div id="critic_t">от критиков</div>
+            </div>
+        </a>
+        <a href="" id="search_link"><img id="search" src="поиск.svg"></a><!--строка поиска\/-->
+        <input id="search_input" type="search" name="search_input" autocomplete="on" list="games" placeholder="найти" onchange="start_search()">
+        <datalist id="games">
+            <option value="factorio">
+        </datalist>
+        <img id="profile" src="профиль.svg">
+        <div id="enter_t">войти</div>
+
+        <img id="factorio_bk" src="factorio_back.png">
+
+        <div id="your_feedback"><!--здесь пишется отзыв-->
+            <img id="profile_pic" src="профиль.svg">
+            <div id="name"> вы </div>
+            <form class="mark">
+                <input type="radio" id="mark_5" value="5" name="rating">
+                <label for="mark_5" title="Оценка «5»"></label>	
+                <input type="radio" id="mark_4" value="4" name="rating">
+                <label for="mark_4" title="Оценка «4»"></label>    
+                <input type="radio" id="mark_3" value="3" name="rating">
+                <label for="mark_3" title="Оценка «3»"></label>  
+                <input type="radio" id="mark_2" value="2" name="rating">
+                <label for="mark_2" title="Оценка «2»"></label>    
+                <input type="radio" id="mark_1" value="1" name="rating">
+                <label for="mark_1" title="Оценка «1»"></label>
+            </form>
+            <textarea class="writing" id="writing_t" placeholder="оставьте отзыв" name="feedback"></textarea>
+        <div id="send">
+            <div id="send_b"></div>
+            <div id="send_t">отправить</div>
+        </div>
+        </div>
+
+        <div id="bad_feedback"><!--здесь написан отзыв-->
+            <img id="profile_pic" src="профиль.svg">
+            <div id="name"> Гость </div>
+            <div class="writing" id="writing_bad"> слишком сложно на высокой сложности </div>
+            <div class="bad_mark">
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <script src="feedback.js"></script>
+        <script src="search.js"></script>
+    </body>
+</html>
